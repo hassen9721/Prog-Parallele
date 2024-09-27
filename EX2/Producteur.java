@@ -23,6 +23,8 @@ public class Producteur extends Thread {
 
     public void produire() {
         int x = (int) (Math.random() * 100);
+        System.out.println("le producteur produit " + x);
+
         Test.tompon[i] = x;
         i = (i + 1) % 10;
     }

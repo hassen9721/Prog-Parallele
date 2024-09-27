@@ -18,7 +18,7 @@ public class Consommateur extends Thread {
 
     void prelever() {
         int y = Test.tompon[out];
-        System.out.println("le consommateur preleve" + y);
+        System.out.println("le consommateur preleve " + y);
         out = (out + 1) % Test.taille;
 
     }
